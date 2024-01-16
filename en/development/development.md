@@ -20,6 +20,10 @@ It explains how to:
 - [Simulate](../simulation/README.md), [test](../test_and_ci/README.md) and [debug/log](../debug/README.md) PX4.
 - Communicate/integrate with external robotics APIs.
 
+## Introduction Series
+
+You can find examples of implementing key PX4 concepts with the [Intro Series](intro_series/intro_series.md). This will serve to help you learn the building blocks to begin your PX4 development journey.
+
 ## Key Developer Links
 
 - [Support](../contribute/support.md): Get help using the [discussion boards](https://discuss.px4.io//) and other support channels.
