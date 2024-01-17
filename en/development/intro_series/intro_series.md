@@ -9,15 +9,15 @@ will use over and over in your PX4 development journey.
 
 ## This series will cover the following concepts:
 
-- [Add a new module](adding_a_new_module.md)
-  - Adding it to a working queue
-  - Self contained task
-- [Starting your new module](starting_new_module.md)
-- [Add parameters to a module](adding_parameters_to_module.md)
-- [Subscribing to a uORB topic](subscribing_to_a_topic.md)
-  - Single and multi-instance topic
-- [Publishing a uORB topic](publishing_a_topic.md)
-  - Single and multi-instance topic
-- [Adding a new uORB topic](adding_new_uorb_topic.md)
-- [Use **mavlink_log**](mavlink_log.md) for relaying messages
-- [Mesure performance](perf_counter.md) using the `perf_counter` object
+1. [Add a new module](adding_a_new_module.md)
+    - Adding it to a working queue
+    - Self contained task
+2. [Starting a new module](starting_new_module.md)
+3. [Add parameters to a module](adding_parameters_to_module.md)
+4. [Subscribing to a uORB topic](subscribing_to_a_topic.md)
+    - Single and multi-instance topic
+5. [Publishing a uORB topic](publishing_a_topic.md)
+    - Single and multi-instance topic
+6. [Adding a new uORB topic](adding_new_uorb_topic.md)
+7. [Use mavlink_log](mavlink_log.md) for relaying messages or debugging
+8. [Mesure performance](perf_counter.md) using the `perf_counter` object
