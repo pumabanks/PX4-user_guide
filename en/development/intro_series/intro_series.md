@@ -12,6 +12,7 @@ will use over and over in your PX4 development journey.
 - [Add a new module](adding_a_new_module.md)
   - Adding it to a working queue
   - Self contained task
+- [Starting your new module](starting_new_module.md)
 - [Add parameters to a module](adding_parameters_to_module.md)
 - [Subscribing to a uORB topic](subscribing_to_a_topic.md)
   - Single and multi-instance topic
