@@ -1,6 +1,6 @@
 # Adding Parameters to a Module
 
-In order to allow run-time (or during bootup) configuration changes, PX4 uses parameters. We can either add new parameters or pull in existing parameters to our module as needed.
+In order to allow run-time (or during bootup) configuration changes, PX4 uses **parameters**. We can either add new parameters or pull in existing parameters to our module as needed.
 
 ## Making a New Parameter
 
@@ -36,20 +36,17 @@ private:
 
 Now that we have inherited `ModuleParams` and added in parameter access variables, we can access the parameter values by simply calling the `.get()` function as shown below
 ``` c++
-
 bool enabled = _param_sam_enable.get();
 
 uint32_t update_rate_hz = _param_sam_update_hz.get();
-
-
 ```
 
 ## Adding Runtime Support for Parameter Changes
 
-So far we can pull in our parameters but it would be nice to allow the user to change those parameters during run-time. Not all parameters should be monitored for changes during run-time but there are cases where this is helpful.
+So far we can pull in our parameters but it could be nice to allow the user to change those parameters during run-time. Not all parameters should be monitored for changes during run-time but there are cases where this is helpful.
 
 :::tip
-You have to decide on the trade-offs between ease of use, performance, and reliability. For example, it takes resources to monitor parameters so moniitoring at a low and fixed rate using the `SubscriptionInterval` helps. Having many parameters update during `parameters_update()` can cause a hit to performance so choose wisely and decide which trade-off suits your module best.
+You have to decide on the trade-offs between ***ease of use***, ***performance***, and ***reliability***. For example, it takes resources to monitor parameters so moniitoring at a low and fixed rate using the `SubscriptionInterval` helps. Having many parameters update during `parameters_update()` can cause a hit to performance so choose wisely and decide which trade-off suits your module best.
 :::
 
 Add the following to `SuperAwesomeModule.hpp`

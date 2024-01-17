@@ -11,7 +11,7 @@ There are two supported methods for adding a new parameter:
 
 ## Using a C File
 
-While `yaml` is the newer supported convention, you can still add parameters using a `super_awesome_module_params.c` file which many modules still use. This method is also the easiest way to add a new parameter, especially if it has very basic properties.
+While `yaml` is the newer supported convention, you can still add parameters using a `params.c` file which many modules still use. This method is also the easiest way to add a new parameter, especially if it has very basic properties. Convention for naming the file is `<module_name>_params.c` file so for us it will be `super_awesome_module_params.c` and an example is shown below
 
 ``` c
 /**
