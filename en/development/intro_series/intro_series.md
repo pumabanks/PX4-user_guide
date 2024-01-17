@@ -15,11 +15,12 @@ will use over and over in your PX4 development journey.
 2. [Starting a new module](starting_new_module.md)
 3. [Add parameters to a module](adding_parameters_to_module.md)
     - [Creating new parameter](creating_new_parameter.md)
-4. [Add cli status feedback](print_status.md)
+4. [Add CLI status feedback](print_status.md)
 5. [Subscribing to a uORB topic](uorb_subscription.md)
     - Single and multi-instance topic
-6. [Publishing a uORB topic](uorb_publication.md)
+6. [Measuring time](measuring_time.md)
+7. [Publishing a uORB topic](uorb_publication.md)
     - Single and multi-instance topic
-7. [Add a new uORB topic](adding_new_uorb_topic.md)
-8. [Use mavlink_log](mavlink_log.md) for relaying messages or debugging
-9. [Mesure performance](perf_counter.md) using the `perf_counter` object
+8. [Add a new uORB topic](adding_new_uorb_topic.md)
+9. [Use mavlink_log](mavlink_log.md) for relaying messages or debugging
+10. [Mesure performance](perf_counter.md) using the `perf_counter` object
