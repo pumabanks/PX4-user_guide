@@ -43,9 +43,8 @@ px4_add_module(
 		SuperAwesomeModule.hpp
 	DEPENDS
 		px4_work_queue
-	MODULE_CONFIG
-		module.yaml
-)
+	)
+
 ```
 
 ### Kconfig
@@ -58,9 +57,12 @@ menuconfig MODULES_SUPER_AWESOME_MODULE
 	default y
 	---help---
 		Enable support for super awesome functions like hello-world
+
 ```
 
 ### SuperAwesomeModule.hpp
+
+This is a bare-bones module that has inherited attributes and functions from both the `ModuleBase` and `ScheduledWorkItem` classes.
 
 ``` c++
 /****************************************************************************
@@ -81,8 +83,6 @@ menuconfig MODULES_SUPER_AWESOME_MODULE
 #pragma once
 
 // PX4 includes
-#include <px4_platform_common/px4_config.h>
-#include <px4_platform_common/defines.h>
 #include <px4_platform_common/module.h>
 #include <px4_platform_common/px4_work_queue/ScheduledWorkItem.hpp>
 
@@ -116,6 +116,8 @@ private:
 ```
 
 ### SuperAwesomeModule.cpp
+
+There is some boilerplate code here that is common to most modules. This is the foundation that we will want to add to in future examples.
 
 ``` c++
 /****************************************************************************
@@ -155,8 +157,6 @@ void SuperAwesomeModule::Run()
 		ScheduleClear();
 		exit_and_cleanup();
 	}
-
-	hrt_abstime now = hrt_absolute_time();
 
 	/**
 	 * This is where we will add our custom functionality
@@ -217,5 +217,6 @@ extern "C" __EXPORT int super_awesome_module_main(int argc, char *argv[])
 }
 
 } // namespace super_awesome_module
+
 
 ```
