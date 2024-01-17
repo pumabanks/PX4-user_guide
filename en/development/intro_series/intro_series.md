@@ -14,6 +14,7 @@ will use over and over in your PX4 development journey.
     - Self contained task
 2. [Starting a new module](starting_new_module.md)
 3. [Add parameters to a module](adding_parameters_to_module.md)
+    - [Creating new parameter](creating_new_parameter.md)
 4. [Subscribing to a uORB topic](subscribing_to_a_topic.md)
     - Single and multi-instance topic
 5. [Publishing a uORB topic](publishing_a_topic.md)

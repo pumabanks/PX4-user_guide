@@ -23,7 +23,7 @@ Adding a new module is helpful because you can create a sandbox to add functiona
 
 This helps the CMake process and compiler know what needs to be added in and compiled.
 
-```
+``` cmake
 ############################################################################
 #   Copyright (c) 2023 PX4 Development Team. All rights reserved.
 #
