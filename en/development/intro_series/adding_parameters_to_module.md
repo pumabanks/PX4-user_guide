@@ -1,6 +1,6 @@
 # Adding Parameters to a Module
 
-In order to allow run-time configuration changes, PX4 uses parameters. We can either add new parameters or pull in existing parameters to our module as needed.
+In order to allow run-time (or during bootup) configuration changes, PX4 uses parameters. We can either add new parameters or pull in existing parameters to our module as needed.
 
 ## Making a New Parameter
 
