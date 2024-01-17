@@ -1,3 +1,7 @@
+[<< Back to Intro Series](intro_series.md)
+
+[<< Back to Adding Parameter to Module](adding_parameters_to_module.md)
+
 # Creating a New Parmeter (yaml)
 
 There are two supported methods for adding a new parameter:

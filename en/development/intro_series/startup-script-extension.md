@@ -1,3 +1,7 @@
+[<< Back to Intro Series](intro_series.md)
+
+[<< Back to Starting New Module](intro_series.md)
+
 # Startup Scripts Extension
 
 :::tip
