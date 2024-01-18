@@ -16,9 +16,9 @@ will use over and over in your PX4 development journey.
 3. [Add parameters to a module](adding_parameters_to_module.md)
     - [Create a new parameter](creating_new_parameter.md)
 4. [Add CLI status feedback](print_status.md)
-5. [Subscre to a uORB topic](uorb_subscription.md)
+5. [Measure time](measuring_time.md)
+6. [Subscribe to a uORB topic](uorb_subscription.md)
     - Single and multi-instance topic
-6. [Measure time](measuring_time.md)
 7. [Add a new uORB topic](adding_new_uorb_topic.md)
 8. [Publish a uORB topic](uorb_publication.md)
     - Single and multi-instance topic
