@@ -21,6 +21,6 @@ will use over and over in your PX4 development journey.
     - Single and multi-instance topic
 7. [Add a new uORB topic](adding_new_uorb_topic.md)
 8. [Publish a uORB topic](uorb_publication.md)
-9. [Log a new uORB topic](topic_logging.md)
+9. [Log a new uORB topic](logging_uorb_topic.md)
 10. [Use mavlink_log](mavlink_log.md) for relaying messages or debugging
 11. [Mesure performance](perf_counter.md) using the `perf_counter` object
