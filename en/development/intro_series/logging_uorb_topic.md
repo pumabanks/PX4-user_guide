@@ -10,7 +10,7 @@ To add loggging support for our `SuperAwesomeTopic` add the topic in `src/module
 void LoggedTopics::add_default_topics()
 {
 	. . .
-	add_optional_topic("super_awesome_topic", 100); // will log if topic exists at 10 Hz (interval = 100 ms)
+	add_topic("super_awesome_topic", 100); // will log at 10 Hz (interval = 100 ms)
 	. . .
 }
 ```
